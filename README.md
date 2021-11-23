@@ -12,10 +12,30 @@ Specifically, I will be comparing the Logistic Regression model and Random Fores
 
 ## Repo Structure
 
-Machine Learning Notebook | 
+Machine Learning Notebook | [Credit Risk Evaluator.ipynb](Credit-Risk-Evaluator.ipynb)
 
 ## Setup
 
 The data for this repositry is not given, therefore running this code yourself will require you to gather data with LendingClub's API.
 
-## Analysis
+## Training
+
+We first trained our model on a dataset that was not scaled. For this we will use Logistic Regression and Random Forest Classification.
+
+#### Non-Scaled Results (Logistic Regression)
+![non_scaled_1](img/unscaled_results.png)
+
+#### Non-Scaled Results (Random Forest Classification)
+![non_scaled_2](img/unscaled_results_2.png)
+
+#### Scaled Results (Logistic Regression)
+![scaled_1](img/scaled_results.png)
+
+#### Scaled Results (Random Forest Classification)
+![scaled_2](img/scaled_results_2.png)
+
+## Conclusion
+
+Scaling has afforded our model a logistic regression classification accuracy of 76%
+
+Our ranfom forest classifier has an accuracy of 63%
